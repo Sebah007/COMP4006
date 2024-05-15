@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Project</title>
+    <style>
+        body {
+            animation: gradientBackground 30s infinite;
+            color: white; /* Ensures text is readable */
+        }
+        @keyframes gradientBackground {
+            0%, 25% {
+                background-color: #004225; /* British Racing Green */
+            }
+            33%, 58% {
+                background-color: #89CFF0; /* Baby Blue */
+            }
+            66%, 91% {
+                background-color: #A11118; /* Ultra Red */
+            }
+            100% {
+                background-color: #004225; /* British Racing Green */
+            }
+        }
+        .program-section {
+            margin: 20px 0;
+        }
+        iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>BONJOUR MES AMIS!</h1>
+    <h3>COMP4036</h3>
+    
+    <ul>
+        <li>Welcome to my page. My name is Sebastian Hernandez Acevedo.</li>
+        <li>I'm studying Computer Science</li>   
+        <li>I like cars, specifically sports cars like this 991.2 Porsche 911 GT3 RS: 
+            <img src="https://collectingcars.imgix.net/014661/MAIN.jpg?w=1263&fit=fillmax&crop=edges&auto=format,compress&cs=srgb&q=85" alt="Car Image" style="width:369px;height:255px;">
+        </li>
+    </ul>
+
+    <h2>Documents</h2>
+
+    <div class="program-section">
+        <h3>README</h3>
+        <ul>
+            <li>Overview of the project.</li>
+            <li>Includes setup and usage info.</li>
+        </ul>
+        <iframe src="README.md"></iframe>
+    </div>
+
+    <div class="program-section">
+        <h3>Word Counter (PHP)</h3>
+        <ul>
+            <li>Counts words in a text.</li>
+        </ul>
+        <iframe src="Word_countr.php"></iframe>
+    </div>
+
+    <div class="program-section">
+        <h3>CV Generator (PHP)</h3>
+        <ul>
+            <li>Generates a CV in PDF format.</li>
+        </ul>
+        <iframe src="CV2.php"></iframe>
+        <iframe src="generate_pdf.php"></iframe>
+        <iframe src="download_cv.php"></iframe>
+    </div>
+
+    <div class="program-section">
+        <h3>Word Counter (JavaScript)</h3>
+        <ul>
+            <li>Counts words using JavaScript.</li>
+        </ul>
+        <script src="Word_countr.js"></script>
+    </div>
+
+    <div class="program-section">
+        <h3>String Counter (JavaScript and PHP)</h3>
+        <ul>
+            <li>Counts specific strings in text.</li>
+            <li>Available in JS and PHP.</li>
+        </ul>
+        <iframe src="String_countr.js"></iframe>
+        <iframe src="String-countr.php"></iframe>
+    </div>
+
+    <div class="program-section">
+        <h3>Calculator (JavaScript and PHP)</h3>
+        <ul>
+            <li>Basic calculator functionality.</li>
+            <li>Available in JS and PHP.</li>
+        </ul>
+        <iframe src="calculator.js"></iframe>
+        <iframe src="calculator.php"></iframe>
+    </div>
+
+</body>
+</html>
